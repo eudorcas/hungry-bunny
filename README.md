@@ -5,7 +5,7 @@ Hungry Bunny - JS :leaves: collecting game
 
 :rabbit2: Bunny is very hungry. Help him to eat as many leaves as possible. Try not to hit the wall.
 
-###Used technologies:
+### Used technologies:
 - JavaScript,
 - HTML,
 - CSS,
