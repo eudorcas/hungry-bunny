@@ -22,6 +22,7 @@ section.start {
   position: fixed;
 
 
+
 }
 
 h1.big-title{
@@ -33,7 +34,7 @@ h1.big-title span{
 }
 button.start-button,
 button.again-button {
-  margin: 100px 0 300px 0;
+  margin: 100px 0 200px 0;
   padding: 5px;
   background: none;
   font-size: 40px;
@@ -143,8 +144,8 @@ section.game-over {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
   z-index: 2;
+  position: fixed;
 
 
 }

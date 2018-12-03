@@ -46,6 +46,7 @@ function Game() {
         this.gameOver();
         if(this.isOver===true) {
             document.querySelector(".game-over").style.display="flex";
+            document.querySelector(".game").style.display="none";
             const finalScore = document.querySelector(".final-score");
             finalScore.innerText = this.score;
             finalScore.style.fontSize="40px";
