@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Fredoka One', cursive;
 
+
 }
 
 body {
@@ -19,9 +20,6 @@ section.start {
   justify-content: center;
   align-items: center;
   z-index: 2;
-  position: fixed;
-
-
 
 }
 
@@ -145,7 +143,7 @@ section.game-over {
   justify-content: center;
   align-items: center;
   z-index: 2;
-  position: fixed;
+
 
 
 }
