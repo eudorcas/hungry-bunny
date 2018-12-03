@@ -12,6 +12,8 @@ body {
 }
 
 section.start {
+  position: fixed;
+  top: 0;
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.9);
@@ -26,13 +28,14 @@ section.start {
 h1.big-title{
   font-size: 100px;
   color: #1F1A1B;
+  margin-top: 0;
 }
 h1.big-title span{
   color: #219E1F;
 }
 button.start-button,
 button.again-button {
-  margin: 100px 0 200px 0;
+  margin-top: 100px;
   padding: 5px;
   background: none;
   font-size: 40px;
@@ -135,6 +138,8 @@ section#score div {
 }
 
 section.game-over {
+  position: fixed;
+  top: 0;
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.9);
